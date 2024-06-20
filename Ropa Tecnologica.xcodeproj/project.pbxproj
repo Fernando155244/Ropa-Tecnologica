@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10207B042C24782D00346E8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10207B032C24782D00346E8A /* AppDelegate.swift */; };
+		10207B062C24782D00346E8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10207B052C24782D00346E8A /* SceneDelegate.swift */; };
+		10207B082C24782D00346E8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10207B072C24782D00346E8A /* ViewController.swift */; };
+		10207B0B2C24782D00346E8A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 10207B0A2C24782D00346E8A /* Base */; };
+		10207B0D2C24782E00346E8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10207B0C2C24782E00346E8A /* Assets.xcassets */; };
+		10207B102C24782E00346E8A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 10207B0F2C24782E00346E8A /* Base */; };
+		10207B1B2C24782E00346E8A /* Ropa_TecnologicaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10207B1A2C24782E00346E8A /* Ropa_TecnologicaTests.swift */; };
+		10207B252C24782E00346E8A /* Ropa_TecnologicaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10207B242C24782E00346E8A /* Ropa_TecnologicaUITests.swift */; };
+		10207B272C24782E00346E8A /* Ropa_TecnologicaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10207B262C24782E00346E8A /* Ropa_TecnologicaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10207B172C24782E00346E8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10207AF82C24782D00346E8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10207AFF2C24782D00346E8A;
+			remoteInfo = "Ropa Tecnologica";
+		};
+		10207B212C24782E00346E8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10207AF82C24782D00346E8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10207AFF2C24782D00346E8A;
+			remoteInfo = "Ropa Tecnologica";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10207B002C24782D00346E8A /* Ropa Tecnologica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ropa Tecnologica.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10207B032C24782D00346E8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10207B052C24782D00346E8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		10207B072C24782D00346E8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10207B0A2C24782D00346E8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10207B0C2C24782E00346E8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10207B0F2C24782E00346E8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10207B112C24782E00346E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10207B162C24782E00346E8A /* Ropa TecnologicaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ropa TecnologicaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10207B1A2C24782E00346E8A /* Ropa_TecnologicaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ropa_TecnologicaTests.swift; sourceTree = "<group>"; };
+		10207B202C24782E00346E8A /* Ropa TecnologicaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ropa TecnologicaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10207B242C24782E00346E8A /* Ropa_TecnologicaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ropa_TecnologicaUITests.swift; sourceTree = "<group>"; };
+		10207B262C24782E00346E8A /* Ropa_TecnologicaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ropa_TecnologicaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10207AFD2C24782D00346E8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10207B132C24782E00346E8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10207B1D2C24782E00346E8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10207AF72C24782D00346E8A = {
+			isa = PBXGroup;
+			children = (
+				10207B022C24782D00346E8A /* Ropa Tecnologica */,
+				10207B192C24782E00346E8A /* Ropa TecnologicaTests */,
+				10207B232C24782E00346E8A /* Ropa TecnologicaUITests */,
+				10207B012C24782D00346E8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10207B012C24782D00346E8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10207B002C24782D00346E8A /* Ropa Tecnologica.app */,
+				10207B162C24782E00346E8A /* Ropa TecnologicaTests.xctest */,
+				10207B202C24782E00346E8A /* Ropa TecnologicaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10207B022C24782D00346E8A /* Ropa Tecnologica */ = {
+			isa = PBXGroup;
+			children = (
+				10207B032C24782D00346E8A /* AppDelegate.swift */,
+				10207B052C24782D00346E8A /* SceneDelegate.swift */,
+				10207B072C24782D00346E8A /* ViewController.swift */,
+				10207B092C24782D00346E8A /* Main.storyboard */,
+				10207B0C2C24782E00346E8A /* Assets.xcassets */,
+				10207B0E2C24782E00346E8A /* LaunchScreen.storyboard */,
+				10207B112C24782E00346E8A /* Info.plist */,
+			);
+			path = "Ropa Tecnologica";
+			sourceTree = "<group>";
+		};
+		10207B192C24782E00346E8A /* Ropa TecnologicaTests */ = {
+			isa = PBXGroup;
+			children = (
+				10207B1A2C24782E00346E8A /* Ropa_TecnologicaTests.swift */,
+			);
+			path = "Ropa TecnologicaTests";
+			sourceTree = "<group>";
+		};
+		10207B232C24782E00346E8A /* Ropa TecnologicaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10207B242C24782E00346E8A /* Ropa_TecnologicaUITests.swift */,
+				10207B262C24782E00346E8A /* Ropa_TecnologicaUITestsLaunchTests.swift */,
+			);
+			path = "Ropa TecnologicaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10207AFF2C24782D00346E8A /* Ropa Tecnologica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10207B2A2C24782E00346E8A /* Build configuration list for PBXNativeTarget "Ropa Tecnologica" */;
+			buildPhases = (
+				10207AFC2C24782D00346E8A /* Sources */,
+				10207AFD2C24782D00346E8A /* Frameworks */,
+				10207AFE2C24782D00346E8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ropa Tecnologica";
+			productName = "Ropa Tecnologica";
+			productReference = 10207B002C24782D00346E8A /* Ropa Tecnologica.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10207B152C24782E00346E8A /* Ropa TecnologicaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10207B2D2C24782E00346E8A /* Build configuration list for PBXNativeTarget "Ropa TecnologicaTests" */;
+			buildPhases = (
+				10207B122C24782E00346E8A /* Sources */,
+				10207B132C24782E00346E8A /* Frameworks */,
+				10207B142C24782E00346E8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10207B182C24782E00346E8A /* PBXTargetDependency */,
+			);
+			name = "Ropa TecnologicaTests";
+			productName = "Ropa TecnologicaTests";
+			productReference = 10207B162C24782E00346E8A /* Ropa TecnologicaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10207B1F2C24782E00346E8A /* Ropa TecnologicaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10207B302C24782E00346E8A /* Build configuration list for PBXNativeTarget "Ropa TecnologicaUITests" */;
+			buildPhases = (
+				10207B1C2C24782E00346E8A /* Sources */,
+				10207B1D2C24782E00346E8A /* Frameworks */,
+				10207B1E2C24782E00346E8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10207B222C24782E00346E8A /* PBXTargetDependency */,
+			);
+			name = "Ropa TecnologicaUITests";
+			productName = "Ropa TecnologicaUITests";
+			productReference = 10207B202C24782E00346E8A /* Ropa TecnologicaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10207AF82C24782D00346E8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					10207AFF2C24782D00346E8A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					10207B152C24782E00346E8A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 10207AFF2C24782D00346E8A;
+					};
+					10207B1F2C24782E00346E8A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 10207AFF2C24782D00346E8A;
+					};
+				};
+			};
+			buildConfigurationList = 10207AFB2C24782D00346E8A /* Build configuration list for PBXProject "Ropa Tecnologica" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10207AF72C24782D00346E8A;
+			productRefGroup = 10207B012C24782D00346E8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10207AFF2C24782D00346E8A /* Ropa Tecnologica */,
+				10207B152C24782E00346E8A /* Ropa TecnologicaTests */,
+				10207B1F2C24782E00346E8A /* Ropa TecnologicaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10207AFE2C24782D00346E8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10207B0D2C24782E00346E8A /* Assets.xcassets in Resources */,
+				10207B102C24782E00346E8A /* Base in Resources */,
+				10207B0B2C24782D00346E8A /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10207B142C24782E00346E8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10207B1E2C24782E00346E8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10207AFC2C24782D00346E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10207B082C24782D00346E8A /* ViewController.swift in Sources */,
+				10207B042C24782D00346E8A /* AppDelegate.swift in Sources */,
+				10207B062C24782D00346E8A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10207B122C24782E00346E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10207B1B2C24782E00346E8A /* Ropa_TecnologicaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10207B1C2C24782E00346E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10207B252C24782E00346E8A /* Ropa_TecnologicaUITests.swift in Sources */,
+				10207B272C24782E00346E8A /* Ropa_TecnologicaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10207B182C24782E00346E8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10207AFF2C24782D00346E8A /* Ropa Tecnologica */;
+			targetProxy = 10207B172C24782E00346E8A /* PBXContainerItemProxy */;
+		};
+		10207B222C24782E00346E8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10207AFF2C24782D00346E8A /* Ropa Tecnologica */;
+			targetProxy = 10207B212C24782E00346E8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10207B092C24782D00346E8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10207B0A2C24782D00346E8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10207B0E2C24782E00346E8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10207B0F2C24782E00346E8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10207B282C24782E00346E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10207B292C24782E00346E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10207B2B2C24782E00346E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ropa Tecnologica/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "udll.com.Ropa-Tecnologica";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10207B2C2C24782E00346E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ropa Tecnologica/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "udll.com.Ropa-Tecnologica";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		10207B2E2C24782E00346E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "udll.com.Ropa-TecnologicaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ropa Tecnologica.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ropa Tecnologica";
+			};
+			name = Debug;
+		};
+		10207B2F2C24782E00346E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "udll.com.Ropa-TecnologicaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ropa Tecnologica.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ropa Tecnologica";
+			};
+			name = Release;
+		};
+		10207B312C24782E00346E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "udll.com.Ropa-TecnologicaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ropa Tecnologica";
+			};
+			name = Debug;
+		};
+		10207B322C24782E00346E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "udll.com.Ropa-TecnologicaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ropa Tecnologica";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10207AFB2C24782D00346E8A /* Build configuration list for PBXProject "Ropa Tecnologica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10207B282C24782E00346E8A /* Debug */,
+				10207B292C24782E00346E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10207B2A2C24782E00346E8A /* Build configuration list for PBXNativeTarget "Ropa Tecnologica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10207B2B2C24782E00346E8A /* Debug */,
+				10207B2C2C24782E00346E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10207B2D2C24782E00346E8A /* Build configuration list for PBXNativeTarget "Ropa TecnologicaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10207B2E2C24782E00346E8A /* Debug */,
+				10207B2F2C24782E00346E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10207B302C24782E00346E8A /* Build configuration list for PBXNativeTarget "Ropa TecnologicaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10207B312C24782E00346E8A /* Debug */,
+				10207B322C24782E00346E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10207AF82C24782D00346E8A /* Project object */;
+}
