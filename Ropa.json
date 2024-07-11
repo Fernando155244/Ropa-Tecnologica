@@ -1,0 +1,121 @@
+{
+    "Stock" : [
+        {
+            "Nombre" : "Chamarra",
+            "Precio" : 600,
+            "Genero" : "H",
+            "Tallas_Disponibles" : "EECH ECH CH M G EG EEG",
+            "Stack_Actural" : 200,
+            "Colores" : "Negro  Rojo Azul Verde",
+            "Corte" : "Recto"
+        },
+        {
+            "Nombre" : "Pantalon de Mesclilla",
+            "Precio" : 700,
+            "Genero" : "34",
+            "Tallas_Disponibles" : "EECH ECH CH M G EG EEG",
+            "Stack_Actural" : 40,
+            "Colores" : "Azul Negro Gris",
+            "Corte" : "Recto"
+        },
+        {
+            "Nombre" : "Camisa",
+            "Precio" : 200,
+            "Genero" : "34",
+            "Tallas_Disponibles" : "EECH ECH CH M G EG EEG",
+            "Stack_Actural" : 1000,
+            "Colores" : "Blanco Negro Rojo Verde Azul Morado Estampado_Personal",
+            "Corte" : "Recto"
+        },
+        {
+            "Nombre" : "Cinturon",
+            "Precio" : 90,
+            "Genero" : "34",
+            "Tallas_Disponibles" : "EECH ECH CH M G EG EEG",
+            "Stack_Actural" : 40,
+            "Colores" : "Azul Negro Gris Cafe",
+            "Corte" : ""
+        },
+        {
+            "Nombre" : "Pantalon de Gamusa",
+            "Precio" : 500,
+            "Genero" : "M",
+            "Tallas_Disponibles" : "EECH ECH CH M G EG EEG",
+            "Stack_Actural" : 300,
+            "Colores" : "Azul Negro Gris Cafe",
+            "Corte" : "Semi Entubado"
+        },
+        {
+            "Nombre" : "Blusa",
+            "Precio" : 300,
+            "Genero" : "F",
+            "Tallas_Disponibles" : "EECH ECH CH M G EG EEG",
+            "Stack_Actural" : 150,
+            "Colores" : "Blanco Negro Rojo Verde Azul Morado Estampado_Personal",
+            "Corte" : "Slim"
+        },
+        {
+            "Nombre" : "Falda",
+            "Precio" : 400,
+            "Genero" : "F",
+            "Tallas_Disponibles" : "EECH ECH CH M G EG EEG",
+            "Stack_Actural" : 200,
+            "Colores" : "Blanco Negro Rojo Verde Azul Morado",
+            "Corte" : "Plisada"
+        },
+        {
+            "Nombre" : "Vestido",
+            "Precio" : 700,
+            "Genero" : "F",
+            "Tallas_Disponibles" : "EECH ECH CH M G EG EEG",
+            "Stack_Actural" : 40,
+            "Colores" : "Blanco Negro Rojo Verde Azul Morado",
+            "Corte" : "Capas"
+        },
+        {
+            "Nombre" : "Zapatos",
+            "Precio" : 300,
+            "Genero" : "34",
+            "Tallas_Disponibles" : "EECH ECH CH M G EG EEG",
+            "Stack_Actural" : 300,
+            "Colores" : "Negro Gris Cafe",
+            "Corte" : "Puntera Ancha"
+        },
+        {
+            "Nombre" : "Botas",
+            "Precio" : 100,
+            "Genero" : "34",
+            "Tallas_Disponibles" : "EECH ECH CH M G EG EEG",
+            "Stack_Actural" : 500,
+            "Colores" : "Negro Gris Cafe Azul",
+            "Corte" : "Puntera Ancha"
+        },
+        {
+            "Nombre" : "Sandalias",
+            "Precio" : 500,
+            "Genero" : "34",
+            "Tallas_Disponibles" : "EECH ECH CH M G EG EEG",
+            "Stack_Actural" : 30,
+            "Colores" : "Blanco Negro Rojo Verde Azul Morado",
+            "Corte" : ""
+        },
+        {
+            "Nombre" : "Mochila",
+            "Precio" : 700,
+            "Genero" : "34",
+            "Tallas_Disponibles" : "EECH ECH CH M G EG EEG",
+            "Stack_Actural" : 200,
+            "Colores" : "Negro Gris Cafe Azul Multi_Color",
+            "Corte" : "40L"
+        },
+        {
+            "Nombre" : "Bolsa",
+            "Precio" : 400,
+            "Genero" : "F",
+            "Tallas_Disponibles" : "EECH ECH CH M G EG EEG",
+            "Stack_Actural" : 100,
+            "Colores" : "Negro Gris Cafe Azul Multi_Color",
+            "Corte" : "25L"
+        }
+    ]
+}

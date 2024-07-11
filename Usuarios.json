@@ -1,0 +1,74 @@
+{
+  "Usuarios": [{
+    "Nombre": "Fernando",
+    "Email": "155244@udl.edu",
+    "Usuario":"Fernando155244",
+    "Contrasenia": "Fer123",
+    "Genero":"M",
+    "Dirección":"Casa"
+  },
+  {
+    "Nombre": "Pedro",
+    "Email": "155244@udl.edu",
+    "Usuario":"Pedro155245",
+    "Contrasenia": "El dueño di SantaFe",
+    "Genero":"M",
+    "Dirección":"Madriguera"
+  },
+  {
+    "Nombre": "Juan",
+    "Email": "155244@udl.edu",
+    "Usuario":"German123",
+    "Contrasenia": "Abrazo psicologico",
+    "Genero":"M",
+    "Dirección":"Establo"
+  },
+  {
+    "Nombre": "Druoto",
+    "Email": "155244@udl.edu",
+    "Usuario":"DrotoxJefa",
+    "Contrasenia": "Forever",
+    "Genero":"M",
+    "Dirección":"Casa"
+  },
+  {
+    "Nombre": "Becerro",
+    "Email": "155244@udl.edu",
+    "Usuario":"Asado",
+    "Contrasenia": "NoBinario",
+    "Genero":"34",
+    "Dirección":"Parrilla"
+  },
+  {
+    "Nombre": "GamerGirl",
+    "Email": "155244@udl.edu",
+    "Usuario":"Mario12",
+    "Contrasenia": "Cuco",
+    "Genero":"F",
+    "Dirección":"Departamento"
+  },
+  {
+    "Nombre": "HipsterGirl",
+    "Email": "155244@udl.edu",
+    "Usuario":"Camara13",
+    "Contrasenia": "Blancos",
+    "Genero":"F",
+    "Dirección":"Departamento"
+  },
+  {
+    "Nombre": "Angelita",
+    "Email": "155244@udl.edu",
+    "Usuario":"Angelita1",
+    "Contrasenia": "Demonio2",
+    "Genero":"F",
+    "Dirección":"Bosque"
+  },
+  {
+    "Nombre": "Demonio",
+    "Email": "155244@udl.edu",
+    "Usuario":"Demonio2",
+    "Contrasenia": "Angelita1",
+    "Genero":"M",
+    "Dirección":"Bosque"
+  }]
+}

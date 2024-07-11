@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1002C3852C34410900083653 /* Mensajes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1002C3842C34410900083653 /* Mensajes.swift */; };
+		1002C3862C34410900083653 /* Mensajes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1002C3842C34410900083653 /* Mensajes.swift */; };
+		1002C3872C34410900083653 /* Mensajes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1002C3842C34410900083653 /* Mensajes.swift */; };
 		10207B042C24782D00346E8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10207B032C24782D00346E8A /* AppDelegate.swift */; };
 		10207B062C24782D00346E8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10207B052C24782D00346E8A /* SceneDelegate.swift */; };
 		10207B082C24782D00346E8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10207B072C24782D00346E8A /* ViewController.swift */; };
@@ -16,6 +19,20 @@
 		10207B1B2C24782E00346E8A /* Ropa_TecnologicaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10207B1A2C24782E00346E8A /* Ropa_TecnologicaTests.swift */; };
 		10207B252C24782E00346E8A /* Ropa_TecnologicaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10207B242C24782E00346E8A /* Ropa_TecnologicaUITests.swift */; };
 		10207B272C24782E00346E8A /* Ropa_TecnologicaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10207B262C24782E00346E8A /* Ropa_TecnologicaUITestsLaunchTests.swift */; };
+		1079F57D2C2DAEC100CC1E8B /* LoginControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1079F57C2C2DAEC100CC1E8B /* LoginControl.swift */; };
+		1079F57F2C2DAF0000CC1E8B /* BienvenidaControles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1079F57E2C2DAF0000CC1E8B /* BienvenidaControles.swift */; };
+		1079F5812C2DAF2300CC1E8B /* Usuarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1079F5802C2DAF2300CC1E8B /* Usuarios.swift */; };
+		108043BC2C343868006DD68E /* Ropa.json in Resources */ = {isa = PBXBuildFile; fileRef = 108043BB2C343868006DD68E /* Ropa.json */; };
+		108043BD2C343868006DD68E /* Ropa.json in Resources */ = {isa = PBXBuildFile; fileRef = 108043BB2C343868006DD68E /* Ropa.json */; };
+		108043BE2C343868006DD68E /* Ropa.json in Resources */ = {isa = PBXBuildFile; fileRef = 108043BB2C343868006DD68E /* Ropa.json */; };
+		108043C02C343A51006DD68E /* Usuarios.json in Resources */ = {isa = PBXBuildFile; fileRef = 108043BF2C343A51006DD68E /* Usuarios.json */; };
+		108043C12C343A51006DD68E /* Usuarios.json in Resources */ = {isa = PBXBuildFile; fileRef = 108043BF2C343A51006DD68E /* Usuarios.json */; };
+		108043C22C343A51006DD68E /* Usuarios.json in Resources */ = {isa = PBXBuildFile; fileRef = 108043BF2C343A51006DD68E /* Usuarios.json */; };
+		10D9734C2C3D8C8F0082C8E8 /* CuentaControles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D9734B2C3D8C8F0082C8E8 /* CuentaControles.swift */; };
+		10D9734E2C3D8C9F0082C8E8 /* PromocionesControles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D9734D2C3D8C9F0082C8E8 /* PromocionesControles.swift */; };
+		10D973502C3D8CAF0082C8E8 /* CatalogoControles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D9734F2C3D8CAF0082C8E8 /* CatalogoControles.swift */; };
+		10D973522C3D8CC70082C8E8 /* RedesControles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D973512C3D8CC70082C8E8 /* RedesControles.swift */; };
+		10D973542C3D8CD60082C8E8 /* SucursalesControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D973532C3D8CD60082C8E8 /* SucursalesControler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1002C3842C34410900083653 /* Mensajes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mensajes.swift; sourceTree = "<group>"; };
 		10207B002C24782D00346E8A /* Ropa Tecnologica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ropa Tecnologica.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10207B032C24782D00346E8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10207B052C24782D00346E8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +67,16 @@
 		10207B202C24782E00346E8A /* Ropa TecnologicaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ropa TecnologicaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10207B242C24782E00346E8A /* Ropa_TecnologicaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ropa_TecnologicaUITests.swift; sourceTree = "<group>"; };
 		10207B262C24782E00346E8A /* Ropa_TecnologicaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ropa_TecnologicaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1079F57C2C2DAEC100CC1E8B /* LoginControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginControl.swift; sourceTree = "<group>"; };
+		1079F57E2C2DAF0000CC1E8B /* BienvenidaControles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BienvenidaControles.swift; sourceTree = "<group>"; };
+		1079F5802C2DAF2300CC1E8B /* Usuarios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuarios.swift; sourceTree = "<group>"; };
+		108043BB2C343868006DD68E /* Ropa.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Ropa.json; path = ../../Downloads/Ropa.json; sourceTree = "<group>"; };
+		108043BF2C343A51006DD68E /* Usuarios.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Usuarios.json; sourceTree = "<group>"; };
+		10D9734B2C3D8C8F0082C8E8 /* CuentaControles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuentaControles.swift; sourceTree = "<group>"; };
+		10D9734D2C3D8C9F0082C8E8 /* PromocionesControles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromocionesControles.swift; sourceTree = "<group>"; };
+		10D9734F2C3D8CAF0082C8E8 /* CatalogoControles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogoControles.swift; sourceTree = "<group>"; };
+		10D973512C3D8CC70082C8E8 /* RedesControles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedesControles.swift; sourceTree = "<group>"; };
+		10D973532C3D8CD60082C8E8 /* SucursalesControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SucursalesControler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +107,9 @@
 		10207AF72C24782D00346E8A = {
 			isa = PBXGroup;
 			children = (
+				1002C3842C34410900083653 /* Mensajes.swift */,
+				108043BF2C343A51006DD68E /* Usuarios.json */,
+				108043BB2C343868006DD68E /* Ropa.json */,
 				10207B022C24782D00346E8A /* Ropa Tecnologica */,
 				10207B192C24782E00346E8A /* Ropa TecnologicaTests */,
 				10207B232C24782E00346E8A /* Ropa TecnologicaUITests */,
@@ -99,6 +130,8 @@
 		10207B022C24782D00346E8A /* Ropa Tecnologica */ = {
 			isa = PBXGroup;
 			children = (
+				1079F57B2C2DAE8200CC1E8B /* Controler */,
+				1079F57A2C2DAE7A00CC1E8B /* Model */,
 				10207B032C24782D00346E8A /* AppDelegate.swift */,
 				10207B052C24782D00346E8A /* SceneDelegate.swift */,
 				10207B072C24782D00346E8A /* ViewController.swift */,
@@ -125,6 +158,28 @@
 				10207B262C24782E00346E8A /* Ropa_TecnologicaUITestsLaunchTests.swift */,
 			);
 			path = "Ropa TecnologicaUITests";
+			sourceTree = "<group>";
+		};
+		1079F57A2C2DAE7A00CC1E8B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1079F5802C2DAF2300CC1E8B /* Usuarios.swift */,
+				10D9734B2C3D8C8F0082C8E8 /* CuentaControles.swift */,
+				10D9734D2C3D8C9F0082C8E8 /* PromocionesControles.swift */,
+				10D9734F2C3D8CAF0082C8E8 /* CatalogoControles.swift */,
+				10D973512C3D8CC70082C8E8 /* RedesControles.swift */,
+				10D973532C3D8CD60082C8E8 /* SucursalesControler.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1079F57B2C2DAE8200CC1E8B /* Controler */ = {
+			isa = PBXGroup;
+			children = (
+				1079F57C2C2DAEC100CC1E8B /* LoginControl.swift */,
+				1079F57E2C2DAF0000CC1E8B /* BienvenidaControles.swift */,
+			);
+			path = Controler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +286,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				108043C02C343A51006DD68E /* Usuarios.json in Resources */,
 				10207B0D2C24782E00346E8A /* Assets.xcassets in Resources */,
 				10207B102C24782E00346E8A /* Base in Resources */,
 				10207B0B2C24782D00346E8A /* Base in Resources */,
+				108043BC2C343868006DD68E /* Ropa.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +298,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				108043C12C343A51006DD68E /* Usuarios.json in Resources */,
+				108043BD2C343868006DD68E /* Ropa.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +307,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				108043C22C343A51006DD68E /* Usuarios.json in Resources */,
+				108043BE2C343868006DD68E /* Ropa.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +320,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				10207B082C24782D00346E8A /* ViewController.swift in Sources */,
+				10D973502C3D8CAF0082C8E8 /* CatalogoControles.swift in Sources */,
+				10D973542C3D8CD60082C8E8 /* SucursalesControler.swift in Sources */,
+				10D9734C2C3D8C8F0082C8E8 /* CuentaControles.swift in Sources */,
 				10207B042C24782D00346E8A /* AppDelegate.swift in Sources */,
+				1079F57F2C2DAF0000CC1E8B /* BienvenidaControles.swift in Sources */,
+				10D973522C3D8CC70082C8E8 /* RedesControles.swift in Sources */,
+				1002C3852C34410900083653 /* Mensajes.swift in Sources */,
 				10207B062C24782D00346E8A /* SceneDelegate.swift in Sources */,
+				10D9734E2C3D8C9F0082C8E8 /* PromocionesControles.swift in Sources */,
+				1079F5812C2DAF2300CC1E8B /* Usuarios.swift in Sources */,
+				1079F57D2C2DAEC100CC1E8B /* LoginControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10207B1B2C24782E00346E8A /* Ropa_TecnologicaTests.swift in Sources */,
+				1002C3862C34410900083653 /* Mensajes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1002C3872C34410900083653 /* Mensajes.swift in Sources */,
 				10207B252C24782E00346E8A /* Ropa_TecnologicaUITests.swift in Sources */,
 				10207B272C24782E00346E8A /* Ropa_TecnologicaUITestsLaunchTests.swift in Sources */,
 			);
