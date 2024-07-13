@@ -14,14 +14,71 @@ class LoginControler: UIViewController, UITextFieldDelegate
 {
     @IBOutlet weak var usuarioField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
+    
     override func viewDidLoad()
     {
+        var UsuarioFicticio = "FernandoOrozco"
+        var passwordFicticio = "123"
         super.viewDidLoad()
-        leerArchivoJson(filename: "Usuarios")
+        leerArchivoJson(filename: "WsDatos")
         usuarioField.delegate = self
         passwordField.delegate = self
-        //leerArchivoJson(filename: "Usuarios")
+        guardarDatosMemoria(key: "ClaveUsuario", value: UsuarioFicticio)
+        guardarDatosMemoria(key: "password", value: passwordFicticio)
+        guardarDatosMemoria(key: "Nombre", value: "El Fercho")
+        guardarDatosMemoria(key: "e-Mail", value: "155244@udlondres.com")
+        guardarDatosMemoria(key: "Genero", value: "M")
+        guardarDatosMemoria(key: "Edad", value: "26")
+        guardarDatosMemoria(key: "Telefono", value: "5548835143")
+        guardarDatosMemoria(key: "Ocupacion", value: "Estudiante")
     }
+    
+    
+    func login(name:String, pass:String)-> Bool
+    {
+        let nombre = "fer"
+        let password = "123"
+        
+        if(name == nombre  && pass == password)
+        {
+            return true
+        }
+        else{
+            return false
+        }
+        
+    }
+    
+    
+    
+    func validacampos() -> Bool
+    {
+        var usuario = usuarioField.text
+        var password = passwordField.text
+        if (usuario == "" || password == "") {
+            Mensaje.mostrarAlertaPrueba(en: self, mensaje: "Faltan campos por llenar")
+            usuarioField.backgroundColor = UIColor.red
+            passwordField.backgroundColor = UIColor.red
+            return false
+        }else
+        {
+            usuarioField.backgroundColor = UIColor.white
+            passwordField.backgroundColor = UIColor.white
+            if(login(name: usuarioField.text!, pass: passwordField.text!))
+            {
+                return true
+            }else{
+                Mensaje.mostrarAlertaPrueba(en: self, mensaje: "usuatio o contraseña no son correctos")
+                return false
+            }
+        }
+    }
+    
+    
+    
+    
+    
+    
     func leerArchivoJson(filename name: String)  {
         
         do {
@@ -38,72 +95,29 @@ class LoginControler: UIViewController, UITextFieldDelegate
             print(error)
         }
     }
-    func validaLogin (usuario: String?, password: String?)-> Bool
+    
+    
+    
+    @IBAction func ingresar_click(_ sender: Any)
     {
-        var respuesta = false
-        var UsuarioFicticio = "FernandoOrozco"
-        var passwordFicticio = "123"
-        if (usuario == UsuarioFicticio && password == passwordFicticio)
-        {
-            respuesta = false
-            guardarDatosMemoria(key: "ClaveUsuario", value: UsuarioFicticio)
-            guardarDatosMemoria(key: "password", value: passwordFicticio)
-            guardarDatosMemoria(key: "Nombre", value: "El Fercho")
-            guardarDatosMemoria(key: "e-Mail", value: "155244@udlondres.com")
-            guardarDatosMemoria(key: "Genero", value: "M")
-            guardarDatosMemoria(key: "Edad", value: 26)
-        }else
-        {
-            respuesta = false
-        }
-        return respuesta
-    }
-    let userDefaults = UserDefaults.standard
-    func guardarDatosMemoria (key: String, value: Any)
-    {
-        userDefaults.set(value, forKey: key)
-        userDefaults.synchronize()
-    }
-    func validaDatosLogin () -> Bool
-    {
-        var Usuario = usuarioField.text
-        var password = passwordField.text
-        if (Usuario == "")
-        {
-            Mensaje.mostrarAlertaPrueba(en: self, mensaje: "Capture el usuario")
-            usuarioField.backgroundColor = UIColor.yellow
-            return false
-        }
-        else if (password == "")
-        {
-            Mensaje.mostrarAlertaPrueba(en: self, mensaje: "Capture el password")
-            usuarioField.backgroundColor = UIColor.yellow
-            return false
-        } else{
-            usuarioField.backgroundColor = UIColor.white
-            passwordField.backgroundColor = UIColor.white
-            if (validaLogin(usuario: Usuario, password: password))
-            {
-                return true
-            }else{
-                Mensaje.mostrarAlertaPrueba(en: self, mensaje: "Usuario y contraseña no valido")
-                return false
-            }
-        }
-    }
-    @IBAction func logear (sender: Any)
-    {
-        var Respuesta: Bool = validaLogin(usuario: usuarioField.text, password: passwordField.text)
-        if Respuesta == true
-        {
-            self.view.endEditing(true)
-        }
-        /*if validaDatosLogin() == true
+        if (validacampos())
         {
             var usuario = usuarioField.text
-            var contrasenia = passwordField.text
-         print(usuario)
-         print(password)
-        }*/		
+            var password = passwordField.text
+            print(usuario)
+        }else
+        {
+            
+        }
+        self.view.endEditing(true)
+    }
+    
+    
+    let userDefaults = UserDefaults.standard // clase para almacenar en la memoria
+    
+    /** funcion que permite guardar en la memoria del telefono*/
+    func guardarDatosMemoria(key: String, value: Any) {
+        userDefaults.set(value, forKey: key)
+        userDefaults.synchronize()
     }
 }

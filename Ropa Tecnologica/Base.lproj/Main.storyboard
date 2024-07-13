@@ -260,7 +260,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Correo:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H8w-BX-x9b">
-                                <rect key="frame" x="26" y="362" width="57" height="21"/>
+                                <rect key="frame" x="26" y="318" width="57" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -294,7 +294,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9gn-iP-i82">
-                                <rect key="frame" x="121" y="355" width="246" height="34"/>
+                                <rect key="frame" x="121" y="311" width="246" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -327,6 +327,19 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Guardar"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Genero:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3k2-wd-MtA">
+                                <rect key="frame" x="26" y="383" width="61" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RhA-ID-9gx">
+                                <rect key="frame" x="121" y="376" width="246" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eUD-Rq-XNZ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -335,6 +348,8 @@
                     <connections>
                         <outlet property="CorreoTXT" destination="9gn-iP-i82" id="IXe-dw-1NK"/>
                         <outlet property="EdadTXT" destination="GN9-Fk-aOY" id="8dc-kb-YJz"/>
+                        <outlet property="GeneroTXT" destination="RhA-ID-9gx" id="iG7-sP-ZtD"/>
+                        <outlet property="GuardarBTN" destination="AQR-gI-PZE" id="Luw-TA-8Q4"/>
                         <outlet property="NombreTXT" destination="L14-7N-NBg" id="U0O-47-WZM"/>
                         <outlet property="OcupacionTXT" destination="164-WD-wQ2" id="R2Y-NP-bYA"/>
                         <outlet property="TelefonoTXT" destination="4Ra-zL-mr7" id="P2u-vQ-l6L"/>
