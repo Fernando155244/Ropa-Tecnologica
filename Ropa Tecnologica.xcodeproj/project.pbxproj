@@ -19,6 +19,9 @@
 		10207B1B2C24782E00346E8A /* Ropa_TecnologicaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10207B1A2C24782E00346E8A /* Ropa_TecnologicaTests.swift */; };
 		10207B252C24782E00346E8A /* Ropa_TecnologicaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10207B242C24782E00346E8A /* Ropa_TecnologicaUITests.swift */; };
 		10207B272C24782E00346E8A /* Ropa_TecnologicaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10207B262C24782E00346E8A /* Ropa_TecnologicaUITestsLaunchTests.swift */; };
+		1030B2252C5BCAED003B9E51 /* ProductosControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1030B2242C5BCAED003B9E51 /* ProductosControler.swift */; };
+		1030B2272C5BCB7A003B9E51 /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1030B2262C5BCB7A003B9E51 /* Producto.swift */; };
+		1030B2292C5BCDA9003B9E51 /* productoColectionCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1030B2282C5BCDA9003B9E51 /* productoColectionCollectionViewController.swift */; };
 		1079F57D2C2DAEC100CC1E8B /* LoginControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1079F57C2C2DAEC100CC1E8B /* LoginControl.swift */; };
 		1079F57F2C2DAF0000CC1E8B /* BienvenidaControles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1079F57E2C2DAF0000CC1E8B /* BienvenidaControles.swift */; };
 		1079F5812C2DAF2300CC1E8B /* Usuarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1079F5802C2DAF2300CC1E8B /* Usuarios.swift */; };
@@ -67,6 +70,9 @@
 		10207B202C24782E00346E8A /* Ropa TecnologicaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ropa TecnologicaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10207B242C24782E00346E8A /* Ropa_TecnologicaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ropa_TecnologicaUITests.swift; sourceTree = "<group>"; };
 		10207B262C24782E00346E8A /* Ropa_TecnologicaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ropa_TecnologicaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1030B2242C5BCAED003B9E51 /* ProductosControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductosControler.swift; sourceTree = "<group>"; };
+		1030B2262C5BCB7A003B9E51 /* Producto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Producto.swift; sourceTree = "<group>"; };
+		1030B2282C5BCDA9003B9E51 /* productoColectionCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productoColectionCollectionViewController.swift; sourceTree = "<group>"; };
 		1079F57C2C2DAEC100CC1E8B /* LoginControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginControl.swift; sourceTree = "<group>"; };
 		1079F57E2C2DAF0000CC1E8B /* BienvenidaControles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BienvenidaControles.swift; sourceTree = "<group>"; };
 		1079F5802C2DAF2300CC1E8B /* Usuarios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuarios.swift; sourceTree = "<group>"; };
@@ -178,6 +184,9 @@
 			children = (
 				1079F57C2C2DAEC100CC1E8B /* LoginControl.swift */,
 				1079F57E2C2DAF0000CC1E8B /* BienvenidaControles.swift */,
+				1030B2242C5BCAED003B9E51 /* ProductosControler.swift */,
+				1030B2262C5BCB7A003B9E51 /* Producto.swift */,
+				1030B2282C5BCDA9003B9E51 /* productoColectionCollectionViewController.swift */,
 			);
 			path = Controler;
 			sourceTree = "<group>";
@@ -328,7 +337,10 @@
 				10D973522C3D8CC70082C8E8 /* RedesControles.swift in Sources */,
 				1002C3852C34410900083653 /* Mensajes.swift in Sources */,
 				10207B062C24782D00346E8A /* SceneDelegate.swift in Sources */,
+				1030B2252C5BCAED003B9E51 /* ProductosControler.swift in Sources */,
+				1030B2292C5BCDA9003B9E51 /* productoColectionCollectionViewController.swift in Sources */,
 				10D9734E2C3D8C9F0082C8E8 /* PromocionesControles.swift in Sources */,
+				1030B2272C5BCB7A003B9E51 /* Producto.swift in Sources */,
 				1079F5812C2DAF2300CC1E8B /* Usuarios.swift in Sources */,
 				1079F57D2C2DAEC100CC1E8B /* LoginControl.swift in Sources */,
 			);
