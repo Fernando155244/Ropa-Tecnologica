@@ -7,9 +7,9 @@
 
 import UIKit
 
-private let reuseIdentifier = "Cell"
+private let reuseIdentifier = "dataCell"
 
-class productoColectionCollectionViewController: UICollectionViewController {
+class productoCollectionViewController: UICollectionViewController {
 
     private var productos : [Producto] = [Producto(image: "CamisasTec", name: "Camisas Tec"), Producto(image: "SueterTec", name: "SueterTec"),Producto(image: "VestidoTec", name: "Vestido Tec"), Producto(image: "OutfitTec", name: "OutfitTec"),Producto(image: "OutfutHacker", name: "Outfit Hacker")]
     override func viewDidLoad() {
@@ -38,18 +38,21 @@ class productoColectionCollectionViewController: UICollectionViewController {
 
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
-        return 0
+        return productos.count
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! ProductoCollectionViewCell
     
+        let elemento = productos[indexPath.row]
+        cell.productoImage.image = UIImage(named: elemento.image)
+        cell.productoName.text = elemento.name
         // Configure the cell
     
         return cell

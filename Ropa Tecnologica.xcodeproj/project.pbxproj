@@ -19,15 +19,13 @@
 		10207B1B2C24782E00346E8A /* Ropa_TecnologicaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10207B1A2C24782E00346E8A /* Ropa_TecnologicaTests.swift */; };
 		10207B252C24782E00346E8A /* Ropa_TecnologicaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10207B242C24782E00346E8A /* Ropa_TecnologicaUITests.swift */; };
 		10207B272C24782E00346E8A /* Ropa_TecnologicaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10207B262C24782E00346E8A /* Ropa_TecnologicaUITestsLaunchTests.swift */; };
-		1030B2252C5BCAED003B9E51 /* ProductosControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1030B2242C5BCAED003B9E51 /* ProductosControler.swift */; };
+		102910EE2C62685B006CF745 /* ProductoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102910ED2C62685B006CF745 /* ProductoCollectionViewCell.swift */; };
+		102910F02C626B26006CF745 /* Ropa.json in Resources */ = {isa = PBXBuildFile; fileRef = 102910EF2C626B26006CF745 /* Ropa.json */; };
 		1030B2272C5BCB7A003B9E51 /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1030B2262C5BCB7A003B9E51 /* Producto.swift */; };
-		1030B2292C5BCDA9003B9E51 /* productoColectionCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1030B2282C5BCDA9003B9E51 /* productoColectionCollectionViewController.swift */; };
+		1030B2292C5BCDA9003B9E51 /* productoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1030B2282C5BCDA9003B9E51 /* productoCollectionViewController.swift */; };
 		1079F57D2C2DAEC100CC1E8B /* LoginControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1079F57C2C2DAEC100CC1E8B /* LoginControl.swift */; };
 		1079F57F2C2DAF0000CC1E8B /* BienvenidaControles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1079F57E2C2DAF0000CC1E8B /* BienvenidaControles.swift */; };
 		1079F5812C2DAF2300CC1E8B /* Usuarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1079F5802C2DAF2300CC1E8B /* Usuarios.swift */; };
-		108043BC2C343868006DD68E /* Ropa.json in Resources */ = {isa = PBXBuildFile; fileRef = 108043BB2C343868006DD68E /* Ropa.json */; };
-		108043BD2C343868006DD68E /* Ropa.json in Resources */ = {isa = PBXBuildFile; fileRef = 108043BB2C343868006DD68E /* Ropa.json */; };
-		108043BE2C343868006DD68E /* Ropa.json in Resources */ = {isa = PBXBuildFile; fileRef = 108043BB2C343868006DD68E /* Ropa.json */; };
 		108043C02C343A51006DD68E /* Usuarios.json in Resources */ = {isa = PBXBuildFile; fileRef = 108043BF2C343A51006DD68E /* Usuarios.json */; };
 		108043C12C343A51006DD68E /* Usuarios.json in Resources */ = {isa = PBXBuildFile; fileRef = 108043BF2C343A51006DD68E /* Usuarios.json */; };
 		108043C22C343A51006DD68E /* Usuarios.json in Resources */ = {isa = PBXBuildFile; fileRef = 108043BF2C343A51006DD68E /* Usuarios.json */; };
@@ -70,13 +68,13 @@
 		10207B202C24782E00346E8A /* Ropa TecnologicaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ropa TecnologicaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10207B242C24782E00346E8A /* Ropa_TecnologicaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ropa_TecnologicaUITests.swift; sourceTree = "<group>"; };
 		10207B262C24782E00346E8A /* Ropa_TecnologicaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ropa_TecnologicaUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		1030B2242C5BCAED003B9E51 /* ProductosControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductosControler.swift; sourceTree = "<group>"; };
+		102910ED2C62685B006CF745 /* ProductoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoCollectionViewCell.swift; sourceTree = "<group>"; };
+		102910EF2C626B26006CF745 /* Ropa.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Ropa.json; path = ../../Downloads/Ropa.json; sourceTree = "<group>"; };
 		1030B2262C5BCB7A003B9E51 /* Producto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Producto.swift; sourceTree = "<group>"; };
-		1030B2282C5BCDA9003B9E51 /* productoColectionCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productoColectionCollectionViewController.swift; sourceTree = "<group>"; };
+		1030B2282C5BCDA9003B9E51 /* productoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productoCollectionViewController.swift; sourceTree = "<group>"; };
 		1079F57C2C2DAEC100CC1E8B /* LoginControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginControl.swift; sourceTree = "<group>"; };
 		1079F57E2C2DAF0000CC1E8B /* BienvenidaControles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BienvenidaControles.swift; sourceTree = "<group>"; };
 		1079F5802C2DAF2300CC1E8B /* Usuarios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuarios.swift; sourceTree = "<group>"; };
-		108043BB2C343868006DD68E /* Ropa.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Ropa.json; path = ../../Downloads/Ropa.json; sourceTree = "<group>"; };
 		108043BF2C343A51006DD68E /* Usuarios.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Usuarios.json; sourceTree = "<group>"; };
 		10D9734B2C3D8C8F0082C8E8 /* CuentaControles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuentaControles.swift; sourceTree = "<group>"; };
 		10D9734D2C3D8C9F0082C8E8 /* PromocionesControles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromocionesControles.swift; sourceTree = "<group>"; };
@@ -115,7 +113,7 @@
 			children = (
 				1002C3842C34410900083653 /* Mensajes.swift */,
 				108043BF2C343A51006DD68E /* Usuarios.json */,
-				108043BB2C343868006DD68E /* Ropa.json */,
+				102910EF2C626B26006CF745 /* Ropa.json */,
 				10207B022C24782D00346E8A /* Ropa Tecnologica */,
 				10207B192C24782E00346E8A /* Ropa TecnologicaTests */,
 				10207B232C24782E00346E8A /* Ropa TecnologicaUITests */,
@@ -184,9 +182,9 @@
 			children = (
 				1079F57C2C2DAEC100CC1E8B /* LoginControl.swift */,
 				1079F57E2C2DAF0000CC1E8B /* BienvenidaControles.swift */,
-				1030B2242C5BCAED003B9E51 /* ProductosControler.swift */,
 				1030B2262C5BCB7A003B9E51 /* Producto.swift */,
-				1030B2282C5BCDA9003B9E51 /* productoColectionCollectionViewController.swift */,
+				1030B2282C5BCDA9003B9E51 /* productoCollectionViewController.swift */,
+				102910ED2C62685B006CF745 /* ProductoCollectionViewCell.swift */,
 			);
 			path = Controler;
 			sourceTree = "<group>";
@@ -295,11 +293,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				102910F02C626B26006CF745 /* Ropa.json in Resources */,
 				108043C02C343A51006DD68E /* Usuarios.json in Resources */,
 				10207B0D2C24782E00346E8A /* Assets.xcassets in Resources */,
 				10207B102C24782E00346E8A /* Base in Resources */,
 				10207B0B2C24782D00346E8A /* Base in Resources */,
-				108043BC2C343868006DD68E /* Ropa.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +306,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				108043C12C343A51006DD68E /* Usuarios.json in Resources */,
-				108043BD2C343868006DD68E /* Ropa.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +314,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				108043C22C343A51006DD68E /* Usuarios.json in Resources */,
-				108043BE2C343868006DD68E /* Ropa.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,13 +328,13 @@
 				10D973502C3D8CAF0082C8E8 /* CatalogoControles.swift in Sources */,
 				10D973542C3D8CD60082C8E8 /* SucursalesControler.swift in Sources */,
 				10D9734C2C3D8C8F0082C8E8 /* CuentaControles.swift in Sources */,
+				102910EE2C62685B006CF745 /* ProductoCollectionViewCell.swift in Sources */,
 				10207B042C24782D00346E8A /* AppDelegate.swift in Sources */,
 				1079F57F2C2DAF0000CC1E8B /* BienvenidaControles.swift in Sources */,
 				10D973522C3D8CC70082C8E8 /* RedesControles.swift in Sources */,
 				1002C3852C34410900083653 /* Mensajes.swift in Sources */,
 				10207B062C24782D00346E8A /* SceneDelegate.swift in Sources */,
-				1030B2252C5BCAED003B9E51 /* ProductosControler.swift in Sources */,
-				1030B2292C5BCDA9003B9E51 /* productoColectionCollectionViewController.swift in Sources */,
+				1030B2292C5BCDA9003B9E51 /* productoCollectionViewController.swift in Sources */,
 				10D9734E2C3D8C9F0082C8E8 /* PromocionesControles.swift in Sources */,
 				1030B2272C5BCB7A003B9E51 /* Producto.swift in Sources */,
 				1079F5812C2DAF2300CC1E8B /* Usuarios.swift in Sources */,
