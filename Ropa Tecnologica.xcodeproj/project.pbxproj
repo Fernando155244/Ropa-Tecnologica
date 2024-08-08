@@ -10,6 +10,7 @@
 		1002C3852C34410900083653 /* Mensajes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1002C3842C34410900083653 /* Mensajes.swift */; };
 		1002C3862C34410900083653 /* Mensajes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1002C3842C34410900083653 /* Mensajes.swift */; };
 		1002C3872C34410900083653 /* Mensajes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1002C3842C34410900083653 /* Mensajes.swift */; };
+		100E0C852C650911004DAEBD /* ProductoDetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100E0C842C650911004DAEBD /* ProductoDetalleViewController.swift */; };
 		10207B042C24782D00346E8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10207B032C24782D00346E8A /* AppDelegate.swift */; };
 		10207B062C24782D00346E8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10207B052C24782D00346E8A /* SceneDelegate.swift */; };
 		10207B082C24782D00346E8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10207B072C24782D00346E8A /* ViewController.swift */; };
@@ -55,6 +56,7 @@
 
 /* Begin PBXFileReference section */
 		1002C3842C34410900083653 /* Mensajes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mensajes.swift; sourceTree = "<group>"; };
+		100E0C842C650911004DAEBD /* ProductoDetalleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoDetalleViewController.swift; sourceTree = "<group>"; };
 		10207B002C24782D00346E8A /* Ropa Tecnologica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ropa Tecnologica.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10207B032C24782D00346E8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10207B052C24782D00346E8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 				1030B2262C5BCB7A003B9E51 /* Producto.swift */,
 				1030B2282C5BCDA9003B9E51 /* productoCollectionViewController.swift */,
 				102910ED2C62685B006CF745 /* ProductoCollectionViewCell.swift */,
+				100E0C842C650911004DAEBD /* ProductoDetalleViewController.swift */,
 			);
 			path = Controler;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				10207B042C24782D00346E8A /* AppDelegate.swift in Sources */,
 				1079F57F2C2DAF0000CC1E8B /* BienvenidaControles.swift in Sources */,
 				10D973522C3D8CC70082C8E8 /* RedesControles.swift in Sources */,
+				100E0C852C650911004DAEBD /* ProductoDetalleViewController.swift in Sources */,
 				1002C3852C34410900083653 /* Mensajes.swift in Sources */,
 				10207B062C24782D00346E8A /* SceneDelegate.swift in Sources */,
 				1030B2292C5BCDA9003B9E51 /* productoCollectionViewController.swift in Sources */,

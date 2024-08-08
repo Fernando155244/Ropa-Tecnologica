@@ -11,7 +11,7 @@ private let reuseIdentifier = "dataCell"
 
 class productoCollectionViewController: UICollectionViewController {
 
-    private var productos : [Producto] = [Producto(image: "CamisasTec", name: "Camisas Tec"), Producto(image: "SueterTec", name: "SueterTec"),Producto(image: "VestidoTec", name: "Vestido Tec"), Producto(image: "OutfitTec", name: "OutfitTec"),Producto(image: "OutfutHacker", name: "Outfit Hacker")]
+    private var productos : [Producto] = [Producto(image: "CamisasTec", name: "Camisas Tec"), Producto(image: "SueterTec", name: "SueterTec"),Producto(image: "VestidosTec", name: "Vestido Tec"), Producto(image: "OutiftTec ", name: "OutfitTec"),Producto(image: "OutfutHacker", name: "Outfit Hacker")]
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,7 +23,38 @@ class productoCollectionViewController: UICollectionViewController {
 
         // Do any additional setup after loading the view.
     }
+    @IBAction func unwindToMain(segue: UIStoryboardSegue){
 
+               
+
+       }
+
+       
+
+       override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+
+           if segue.identifier == "showDetail" {
+               
+               if let indexPaths = collectionView.indexPathsForSelectedItems{
+                   
+                   let destinationController = segue.destination as! ProductoDetalleViewController
+                   
+                   
+                   destinationController.producto = productos[indexPaths[0].row]
+                   
+                   
+                   collectionView.deselectItem(at: indexPaths[0], animated: false)
+                   
+                   
+               }
+               
+           }
+           }
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+
+                performSegue(withIdentifier: "showDetail", sender: nil)
+
+        }
     /*
     // MARK: - Navigation
 
