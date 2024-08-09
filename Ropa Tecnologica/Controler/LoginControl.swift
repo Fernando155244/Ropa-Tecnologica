@@ -10,7 +10,7 @@ import Foundation
 //import SwiftyJSON
 import UIKit
 
-class LoginControler: UIViewController, UITextFieldDelegate
+class LoginControler: UIViewController, UITextFieldDelegate	
 {
     @IBOutlet weak var usuarioField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
